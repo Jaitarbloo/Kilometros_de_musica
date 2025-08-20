@@ -16,8 +16,8 @@ def index():
     
     return rx.vstack(
 
-                        navbar(),
-                        video_inicial(),
+                        #navbar(),
+                        #video_inicial(),
                         Los_90(),
                         #Prueba(),
 

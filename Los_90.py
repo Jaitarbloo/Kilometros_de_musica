@@ -31,9 +31,9 @@ VIDEOS = [
 
 def video_circle():
     # Todo en % del contenedor (que será un cuadrado responsive)
-    RADIUS_PCT = 38        # radio en % del ancho del contenedor
-    ITEM_SIZE_PCT = 20    # diámetro de cada miniatura en %
-    CENTER_SIZE_PCT = 32   # diámetro del círculo central en %
+    RADIUS_PCT = 47      # radio en % del ancho del contenedor
+    ITEM_SIZE_PCT = 24   # diámetro de cada miniatura en %
+    CENTER_SIZE_PCT = 34   # diámetro del círculo central en %
 
     circle_items = []
     n = len(VIDEOS) if VIDEOS else 1
@@ -137,21 +137,29 @@ def Los_90():
     return rx.center(
         
                     rx.vstack(
-            
+
+                            rx.image( src="/Carretera1.jpg",  # Imagen de fondo
+                                    
+                                    style={ "position": "absolute",
+                                            "width": "100vw",
+                                            "height": "100vh",
+                                            "objectFit": "cover",
+                                            "zIndex": 0,
+                                        }
+        
+                                    ),
+                            
                             rx.heading("Los 90 - Música Retro", size="8", color="gold"),
                             video_circle(),
                             video_youtube(),
                             align="center",
-                            spacing="8",
+                            
                     
                     
                             ),
                 
-                bg="linear-gradient(to right, #0f0c29, #302b63, #24243e)",
-                min_h="100vh",
-                padding="2rem",
                 width="100%",
-                eight="100vh",
+                
                     
                     )
 
