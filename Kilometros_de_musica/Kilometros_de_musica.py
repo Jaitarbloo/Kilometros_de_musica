@@ -6,6 +6,7 @@ from Los_90 import Los_90
 from Navbar import navbar
 from Conciertos import Conciertos
 from Prueba_componente1 import Prueba
+from BMW_Publicidad import BMW
 
 from rxconfig import config
 
@@ -18,12 +19,14 @@ def index():
     
     return rx.vstack(
 
-                        #navbar(),
-                        #video_inicial(),
-                        #Los_80(),
-                        #Los_90(),
-                        #Conciertos(),
+                        navbar(),
+                        video_inicial(),
+                        Los_80(),
+                        Los_90(),
+                        Conciertos(),
                         Prueba(),
+                        BMW(),
+                        
                         
 
 
