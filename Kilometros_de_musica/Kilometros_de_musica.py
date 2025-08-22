@@ -1,10 +1,11 @@
 
 import reflex as rx
 from Video_Inicial import video_inicial
+from Los_80 import Los_80
 from Los_90 import Los_90
 from Navbar import navbar
 from Conciertos import Conciertos
-from Prueba_componente import Prueba
+from Prueba_componente1 import Prueba
 
 from rxconfig import config
 
@@ -19,9 +20,11 @@ def index():
 
                         #navbar(),
                         #video_inicial(),
+                        #Los_80(),
                         #Los_90(),
                         #Conciertos(),
                         Prueba(),
+                        
 
 
                     )
