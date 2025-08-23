@@ -165,7 +165,7 @@ def Concierto_iconos():
             # Imagen de fondo original con overlay para mejor contraste
             rx.box(
                 rx.image(
-                    src="/Noches de concierto.jpg",  # Imagen de fondo original
+                    src="/noches-de-concierto.jpg",  # Imagen de fondo original
                     width="100%",
                     height="100%",
                     object_fit="cover",

@@ -1,13 +1,13 @@
 import reflex as rx
 from rxconfig import config
 
-def navbar() -> rx.Component:
-    
+def Navbar() -> rx.Component:
+
     return rx.vstack(
         
                     rx.hstack(
                             
-                                rx.image( "/Logotipo Jb.jpg",
+                                rx.image( "logotipo-jb.jpg",
                                             height=rx.breakpoints(initial="60px", sm="80px", lg="100px"),
                                         ),
             
@@ -51,8 +51,8 @@ def navbar() -> rx.Component:
                                         ),
             
                                 rx.spacer(),
-            
-                                rx.image("Logotipo Jb.jpg",
+
+                                rx.image("logotipo-jb.jpg",
                                           height=rx.breakpoints(initial="60px", sm="80px", lg="100px"),
                                          ),
             
@@ -73,4 +73,4 @@ def navbar() -> rx.Component:
                 )
 
 app = rx.App()
-app.add_page(navbar, title="Componente Navbar")
+app.add_page(Navbar)

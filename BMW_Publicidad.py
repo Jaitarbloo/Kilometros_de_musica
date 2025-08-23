@@ -86,7 +86,7 @@ def BMW() -> rx.Component:
             min_height="80vh"
         ),
         # Imagen de fondo + overlay negro degradado
-        background_image="linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0) 60%), url('/BMW publicidad.webp')",
+        background_image="linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0) 60%), url('/bmw-publicidad.webp')",
         background_size="cover",
         background_position="center",
         min_height="100vh",

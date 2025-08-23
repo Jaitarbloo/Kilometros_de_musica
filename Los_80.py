@@ -138,7 +138,7 @@ def Los_80():
         
                     rx.vstack(
 
-                            rx.image( src="/Renault_5_Turbo-RockvilleMDshow2007.jpg",  # Imagen de fondo
+                            rx.image( src="/cinco-culo-gordo.jpg",  # Imagen de fondo
                                     
                                     style={ "position": "absolute",
                                             "width": "100vw",

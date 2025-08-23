@@ -115,7 +115,7 @@ def Los_90():
     return rx.box(
         # Imagen de fondo
         rx.image(
-            src="/Carretera1.jpg",
+            src="/carretera1.jpg",
             style={
                 "position": "absolute",
                 "width": "100%",

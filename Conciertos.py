@@ -71,7 +71,7 @@ def video_circle():
         # Círculo central, mismo sistema de unidades (% del contenedor)
         rx.box(
             rx.image(
-                src="/Modern talking.webp",
+                src="/modern-talking.webp",
                 width="100%",
                 height="100%",
                 border_radius="50%",
@@ -138,8 +138,8 @@ def Conciertos():
         
                     rx.vstack(
 
-                            rx.image( src="/Noches de concierto.jpg",  # Imagen de fondo
-                                    
+                            rx.image( src="/noches-de-concierto.jpg",  # Imagen de fondo
+
                                     style={ "position": "absolute",
                                             "width": "100vw",
                                             "height": "100vh",
